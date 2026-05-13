@@ -1,0 +1,64 @@
+services:
+  # ---------------------------------------------------------------------------
+  # ClickHouse — columnar data warehouse (empty tables created on first start)
+  # ---------------------------------------------------------------------------
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    ports:
+      - "${CLICKHOUSE_EXTERNAL_PORT:-8123}:8123"  # HTTP interface (used by dbt + Python)
+      - "9000:9000"                                # Native protocol
+    volumes:
+      - clickhouse-data:/var/lib/clickhouse
+      - ./clickhouse/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
+      - ./clickhouse/users.xml:/etc/clickhouse-server/users.d/default-user.xml:ro
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    healthcheck:
+      test: ["CMD", "clickhouse-client", "--query", "SELECT 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  # ---------------------------------------------------------------------------
+  # dbt — runs dbt commands against ClickHouse (utility container)
+  # Usage: docker compose run --rm dbt <dbt-command>
+  # ---------------------------------------------------------------------------
+  dbt:
+    build: ./dbt
+    profiles: ["dbt"]
+    volumes:
+      - ./dbt:/usr/app/dbt
+    working_dir: /usr/app/dbt
+    depends_on:
+      clickhouse:
+        condition: service_healthy
+    environment:
+      - CLICKHOUSE_HOST=clickhouse
+      - CLICKHOUSE_PORT=8123
+      - CLICKHOUSE_USER=${CLICKHOUSE_USER:-default}
+      - CLICKHOUSE_PASSWORD=${CLICKHOUSE_PASSWORD:-}
+
+  # ---------------------------------------------------------------------------
+  # Dagster — pipeline orchestration UI + daemon
+  # Usage: docker compose up dagster
+  # ---------------------------------------------------------------------------
+  dagster:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./dagster_project:/app/dagster_project
+      - ./data:/app/data
+    depends_on:
+      clickhouse:
+        condition: service_healthy
+    environment:
+      - CLICKHOUSE_HOST=clickhouse
+      - CLICKHOUSE_PORT=8123
+      - CLICKHOUSE_USER=${CLICKHOUSE_USER:-default}
+      - CLICKHOUSE_PASSWORD=${CLICKHOUSE_PASSWORD:-}
+
+volumes:
+  clickhouse-data:

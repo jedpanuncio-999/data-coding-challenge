@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_ad_events
+    description: Deduplicated and cleaned ad events.
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: event_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['impression', 'click', 'viewable_impression']
+      - name: publisher_id
+        tests:
+          - not_null
+
+  - name: stg_publishers
+    columns:
+      - name: publisher_id
+        tests:
+          - unique
+          - not_null
+      - name: publisher_name
+        tests:
+          - not_null
+
+  - name: stg_campaigns
+    columns:
+      - name: campaign_id
+        tests:
+          - unique
+          - not_null
+      - name: campaign_name
+        tests:
+          - not_null
+
+  - name: stg_ad_units
+    columns:
+      - name: ad_unit_id
+        tests:
+          - unique
+          - not_null
+      - name: publisher_id
+        tests:
+          - not_null

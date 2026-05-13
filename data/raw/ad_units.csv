@@ -1,0 +1,61 @@
+ad_unit_id,publisher_id,ad_unit_name,ad_format,ad_size,placement_type,is_active,created_at
+au_0001,1,The Daily Globe - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0002,1,The Daily Globe - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0003,1,The Daily Globe - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0004,2,TechCrunchy - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0005,2,TechCrunchy - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0006,2,TechCrunchy - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0007,3,FoodieWeekly - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0008,3,FoodieWeekly - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0009,3,FoodieWeekly - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0010,4,Sportscentre Live - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0011,4,Sportscentre Live - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0012,4,Sportscentre Live - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0013,5,EuroNews24 - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0014,5,EuroNews24 - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0015,5,EuroNews24 - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0016,6,GameZone - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0017,6,GameZone - Right-Rail Sticky,Display,300x250,sticky,1,2024-06-01 00:00:00
+au_0018,6,GameZone - Below-Article Block,Display,300x250,below_fold,1,2024-06-01 00:00:00
+au_0019,7,Screen Rant Gaming - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0020,7,Screen Rant Gaming - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0021,7,Screen Rant Gaming - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0022,8,Cinema Buzz - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0023,8,Cinema Buzz - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0024,8,Cinema Buzz - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0025,9,Auto Enthusiast - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0026,9,Auto Enthusiast - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0027,9,Auto Enthusiast - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0028,10,FinanceDaily - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0029,10,FinanceDaily - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0030,10,FinanceDaily - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0031,11,RetroGames Hub - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0032,11,RetroGames Hub - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0033,11,RetroGames Hub - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0034,12,Pop Culture Central - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0035,12,Pop Culture Central - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0036,12,Pop Culture Central - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0037,13,MumsLife - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0038,13,MumsLife - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0039,13,MumsLife - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0040,14,LowQualGames - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0041,14,LowQualGames - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0042,14,LowQualGames - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0043,15,DiscoverIndia - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0044,15,DiscoverIndia - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0045,15,DiscoverIndia - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0046,16,Tokyo Gadget Review - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0047,16,Tokyo Gadget Review - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0048,16,Tokyo Gadget Review - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0049,17,Aussie Outdoors - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0050,17,Aussie Outdoors - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0051,17,Aussie Outdoors - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0052,18,Crypto Watch - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0053,18,Crypto Watch - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0054,18,Crypto Watch - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0055,19,Recipe Box - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0056,19,Recipe Box - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0057,19,Recipe Box - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00
+au_0058,20,Manila Trends - Top Banner,Banner,728x90,above_fold,1,2024-06-01 00:00:00
+au_0059,20,Manila Trends - Mid-Content Rect,Display,300x250,in_content,1,2024-06-01 00:00:00
+au_0060,20,Manila Trends - Sticky Footer,Display,320x50,sticky,1,2024-06-01 00:00:00

@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: raw
+    database: raw
+    description: >
+      Raw data loaded by the Dagster ingestion pipeline from files in data/raw/.
+      These tables are populated by the candidate's Python ingestion code.
+    tables:
+      - name: publishers
+        description: Publisher / website dimension data.
+        columns:
+          - name: publisher_id
+            tests:
+              - not_null
+      - name: campaigns
+        description: Advertiser campaign dimension data.
+        columns:
+          - name: campaign_id
+            tests:
+              - not_null
+      - name: ad_units
+        description: Ad unit / placement configuration.
+        columns:
+          - name: ad_unit_id
+            tests:
+              - not_null
+      - name: ad_events
+        description: >
+          Ad-serving events (impressions, clicks, viewable impressions).
+          Loaded from daily Parquet files.
+        columns:
+          - name: event_id
+            tests:
+              - not_null
+          - name: publisher_id
+            tests:
+              - not_null

@@ -1,0 +1,21 @@
+publisher_id,publisher_name,publisher_category,primary_domain,account_manager,country,timezone,created_at,updated_at
+1,The Daily Globe,News,dailyglobe.com,Sara Chen,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+2,TechCrunchy,Tech,techcrunchy.com,Liam Owens,US,America/Los_Angeles,2024-06-01 00:00:00,2025-12-01 00:00:00
+3,FoodieWeekly,Lifestyle,foodieweekly.com,Sara Chen,US,America/Chicago,2024-06-01 00:00:00,2025-12-01 00:00:00
+4,Sportscentre Live,Sports,sportscentre.co.uk,Hannah Reid,GB,Europe/London,2024-06-01 00:00:00,2026-03-22 12:00:00
+5,EuroNews24,News,euronews24.eu,Priya Singh,DE,Europe/Berlin,2024-06-01 00:00:00,2025-12-01 00:00:00
+6,GameZone,Gaming,gamezone.gg,Marcus Webb,US,America/Los_Angeles,2024-06-01 00:00:00,2025-12-01 00:00:00
+7,Screen Rant Gaming,Gaming,screenrantgaming.com,Marcus Webb,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+8,Cinema Buzz,Entertainment,cinemabuzz.io,Sara Chen,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+9,Auto Enthusiast,Auto,autoenth.com,Liam Owens,US,America/Detroit,2024-06-01 00:00:00,2025-12-01 00:00:00
+10,FinanceDaily,Finance,financedaily.com,Hannah Reid,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+11,RetroGames Hub,Gaming,retrogameshub.net,Marcus Webb,US,America/Los_Angeles,2024-06-01 00:00:00,2025-12-01 00:00:00
+12,Pop Culture Central,Lifestyle,popculturecentral.com,Sara Chen,US,America/New_York,2024-06-01 00:00:00,2026-03-23 09:00:00
+13,MumsLife,Lifestyle,mumslife.co.uk,Priya Singh,GB,Europe/London,2024-06-01 00:00:00,2025-12-01 00:00:00
+14,LowQualGames,Gaming,lowqualgames.fun,Marcus Webb,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+15,DiscoverIndia,News,discoverindia.in,Priya Singh,IN,Asia/Kolkata,2024-06-01 00:00:00,2025-12-01 00:00:00
+16,Tokyo Gadget Review,Tech,tokyogadget.jp,Hannah Reid,JP,Asia/Tokyo,2024-06-01 00:00:00,2025-12-01 00:00:00
+17,Aussie Outdoors,Lifestyle,aussieoutdoors.com.au,Liam Owens,AU,Australia/Sydney,2024-06-01 00:00:00,2025-12-01 00:00:00
+18,Crypto Watch,Finance,cryptowatch.io,Hannah Reid,US,America/New_York,2024-06-01 00:00:00,2025-12-01 00:00:00
+19,Recipe Box,Lifestyle,recipebox.com,Sara Chen,US,America/Chicago,2024-06-01 00:00:00,2025-12-01 00:00:00
+20,Manila Trends,News,manilatrends.ph,Priya Singh,PH,Asia/Manila,2024-06-01 00:00:00,2025-12-01 00:00:00

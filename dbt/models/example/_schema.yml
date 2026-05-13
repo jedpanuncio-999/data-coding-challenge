@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: example_entity_counts
+    description: >
+      Quick sanity check — record counts per raw table.
+      Use this to verify your ingestion pipeline loaded data correctly.
+    columns:
+      - name: entity
+        description: "Entity type (table name)"
+      - name: record_count
+        description: "Number of records in that table"

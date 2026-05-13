@@ -1,0 +1,25 @@
+campaign_id,campaign_name,advertiser_id,advertiser_name,start_date,end_date,budget_usd,status,device_targeting,country_targeting,created_at
+1001,Toyota RAV4 Q1 Launch,50,Toyota Motor Sales,2026-02-23,2026-03-30,250000,active,"desktop,mobile,tablet","US,CA",2026-01-15 12:00:00
+1002,Visa Premium Card,51,Visa Inc.,2026-02-23,2026-04-04,180000,active,"desktop,mobile","US,GB",2026-01-15 12:00:00
+1003,Nike Air Max Spring,52,Nike Inc.,2026-02-23,2026-03-25,360000,active,"mobile,desktop","US,GB,DE,AU",2026-01-15 12:00:00
+1004,AppleTV+ Drama Slate,53,Apple Inc.,2026-02-23,2026-03-27,410000,active,"ctv,mobile,tablet","US,GB,AU,JP",2026-01-15 12:00:00
+1006,Samsung Galaxy S26,55,Samsung Electronics,2026-02-23,2026-03-30,380000,active,"mobile,desktop,tablet","US,GB,DE,IN,JP,AU",2026-01-15 12:00:00
+1007,JPMorgan Wealth,56,JPMorgan Chase,2026-02-23,2026-03-30,220000,active,desktop,US,2026-01-15 12:00:00
+1008,Doordash Spring Deals,57,Doordash Inc.,2026-02-23,2026-03-30,140000,active,"mobile,tablet","US,CA,AU",2026-01-15 12:00:00
+1009,Audi e-tron Test Drive,58,Audi AG,2026-02-23,2026-03-25,290000,active,"desktop,mobile","US,DE,GB",2026-01-15 12:00:00
+1010,Lufthansa Easter Fares,59,Lufthansa Group,2026-02-23,2026-03-25,95000,active,"desktop,mobile,tablet","DE,GB,US",2026-01-15 12:00:00
+1011,BMW iX5 Launch,60,BMW Group,2026-02-23,2026-03-30,340000,active,"desktop,mobile","US,DE,GB,JP",2026-01-15 12:00:00
+1012,Adidas Originals Drop,61,Adidas AG,2026-02-23,2026-03-25,160000,active,"mobile,desktop","US,GB,DE,AU",2026-01-15 12:00:00
+1013,Spotify Premium Trial,62,Spotify AB,2026-02-23,2026-03-25,110000,active,"mobile,desktop,tablet,ctv","US,GB,DE,AU,JP",2026-01-15 12:00:00
+1015,Sony A95L OLED,64,Sony Group,2026-02-23,2026-03-25,280000,active,"desktop,ctv","US,GB,JP,AU,DE",2026-01-15 12:00:00
+1016,Squarespace Builder,65,Squarespace Inc.,2026-02-23,2026-03-30,65000,active,desktop,"US,GB,AU",2026-01-15 12:00:00
+1017,Robinhood Crypto,66,Robinhood Markets,2026-02-23,2026-03-20,90000,active,"mobile,desktop",US,2026-01-15 12:00:00
+1018,Tesla Model Y Refresh,67,Tesla Inc.,2026-02-23,2026-03-27,360000,active,"desktop,mobile","US,GB,DE,AU",2026-01-15 12:00:00
+1019,Sephora Beauty Insider,68,Sephora USA,2026-02-23,2026-03-25,145000,active,"mobile,desktop,tablet","US,GB",2026-01-15 12:00:00
+1020,Booking.com Spring Stays,69,Booking Holdings,2026-02-23,2026-03-30,200000,active,"mobile,desktop,tablet","US,GB,DE,AU,JP,IN",2026-01-15 12:00:00
+1021,Marriott Bonvoy,70,Marriott International,2026-02-23,2026-03-25,175000,active,"desktop,mobile","US,GB,JP",2026-01-15 12:00:00
+1022,Mercedes EQE Launch,71,Mercedes-Benz AG,2026-02-23,2026-03-27,295000,active,"desktop,mobile","DE,US,GB,JP",2026-01-15 12:00:00
+1023,Patagonia Trail Series,72,Patagonia Inc.,2026-02-23,2026-03-23,80000,active,"desktop,mobile","US,AU,GB",2026-01-15 12:00:00
+1024,Nintendo Switch 2,73,Nintendo Co.,2026-02-23,2026-03-27,240000,active,"mobile,desktop,tablet","US,GB,JP,DE,AU",2026-01-15 12:00:00
+1042,QuickLoans4U Personal,88,QuickLoans4U Ltd.,2026-02-23,2026-03-30,85000,active,"mobile,desktop","PH,US,IN",2026-01-15 12:00:00
+1051,Netflix Brand Slate,92,Netflix Inc.,2026-03-15,2026-03-30,420000,active,"ctv,desktop,mobile","US,GB,DE,AU,JP",2026-01-15 12:00:00
