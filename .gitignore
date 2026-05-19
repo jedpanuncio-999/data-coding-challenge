@@ -31,6 +31,8 @@ build/
 *.swo
 
 # Dagster
+# Dagster
 dagster_home/
 .dagster/
 storage/
+.tmp_dagster_home_*/

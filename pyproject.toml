@@ -11,6 +11,7 @@ dependencies = [
     "dbt-clickhouse",
     "clickhouse-connect",
     "pyarrow",
+    "pandas",
 ]
 
 [project.optional-dependencies]
